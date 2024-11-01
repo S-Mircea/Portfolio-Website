@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import SkillBadge from '../components/SkillBadge';
+import Header from '../components/Header.js';
+import Footer from '../components/Footer.js';
+import SkillBadge from '../components/SkillBadge.js';
 
 export default function Home() {
   const skills = ['JavaScript', 'React', 'Node.js', 'Python', 'SQL', 'Kotlin', 'Java','Algorithms and Data Structures','R', 'Machine Learning'];
