@@ -1,0 +1,46 @@
+{
+  "name": "mircea-serban-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Professional portfolio website for Mircea Serban - BSc Computer Science graduate",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.14",
+    "@mui/material": "^5.15.14",
+    "@mui/system": "^5.15.14",
+    "emailjs-com": "^3.2.0",
+    "framer-motion": "^11.0.24",
+    "next": "^14.1.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.1",
+    "react-syntax-highlighter": "^15.5.0",
+    "remark-gfm": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.19.9",
+    "@types/react": "18.3.23",
+    "@types/react-dom": "^18.2.22",
+    "@types/react-syntax-highlighter": "^15.5.11",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.1.4",
+    "typescript": "5.8.3"
+  },
+  "keywords": [
+    "portfolio",
+    "react",
+    "nextjs",
+    "typescript",
+    "material-ui",
+    "framer-motion"
+  ],
+  "author": "Mircea Serban"
+}
