@@ -26,7 +26,7 @@ import {
   Send,
 } from '@mui/icons-material'
 import { motion } from 'framer-motion'
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser'
 
 interface FormData {
   name: string

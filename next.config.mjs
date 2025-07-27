@@ -4,9 +4,6 @@ const nextConfig = {
     domains: ['localhost'],
     unoptimized: true
   },
-  eslint: {
-    dirs: ['src']
-  },
   typescript: {
     ignoreBuildErrors: false
   }
